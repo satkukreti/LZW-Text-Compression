@@ -1,4 +1,5 @@
-input_file = open("input.txt", "r")
+user_file = input("Please enter your file name: ")
+input_file = open(user_file, "r")
 
 output = []
 string_table = {chr(i):i for i in range(32, 127)}
